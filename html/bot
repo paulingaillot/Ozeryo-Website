@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76348349-4"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-76348349-4');
+		</script>
+
+	
+	
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Ozeryo - Accueil</title>
+
+    </head>
+
+    
+
+    <body>
+
+        <div id="bloc_page">
+
+            <header>
+
+                <div id="titre_principal">
+
+                    <div id="logo">
+
+                        <img src="/images/logo.jpg" alt="Logo de Ozeryo" />
+
+                        <h1>Ozeryo</h1>    
+
+                    </div>
+
+                </div>
+
+                
+
+                <nav>
+
+                    <ul>
+
+                        <li><a href="../">Accueil</a></li>
+
+                        <li><a href="serveur">Le Serveur</a></li>
+
+                        <li><a href="bot">Le Bot</a></li>
+
+                        <li><a href="contact">Me contacter</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </header>
+
+            <div id=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div>
+
+		</div>
+		
+		<section> 
+		<article>
+		<p> Le bot Discord a été officialisé le 1er mars 2018, il comporte donc toujours un certains nombre de bug et de problèmes non-corrigés ! Afin de faire remonter les bugs nous avons mis en place une commande : =report [commande] [raison] <br /></p>
+		<p style='text-align:center'> Le Prefix officiel du bot est <Strong>=</Strong>, celui-ci n'est pour le moment pas modifiable et est commun sur tout les serveurs.</p>
+		<h1>Les Commandes</h1>
+		<h3>Utility</h3>
+		<table>
+		<ul> 
+		<tr>
+		<th>=help  </th><td> Permet d'afficher la page d'aide du bot</td>
+		</tr>
+		<tr>
+		<th>=report [commandes] [raison]</th><td> Permet de faire remonter l'existance d'un bug</td>
+		</tr>
+		<tr>
+		<th>=info </th><td> Permet d'afficher l'etat de service du bot</td>
+		</tr>
+		<tr>
+		<th>=nsfw</th><td> t'affiche de belle images (FAKE)</td>
+		</tr>
+		<tr>
+		<th>=set</th><td> Permet de selectionner un channel pour une action precise (welcome, Tmusique(le bot envoi les infos sur la musique a ce channel), Vmusique(le bot rejoint et demarre la musique automatiquement lorsque quelqu'un entre dans ce channel) , AR (AutoResponder))</td>
+		</tr>
+		<tr>
+		<th>=google </th><td> Fait une recherche google</td></li>
+		</tr>
+		<tr>
+		<th>=hypixel [stat] [joueur] </th><td> Affiche les stats Hypixel d'un joueur. Stat doit etre : stats, statut, paintball, bedwars, help, CaC, TnT</td>
+		</tr>
+		<tr>
+		<th>=fortnite [plateforme] [joueur] </th><td> Affiche les stats Forntnite d'un joueur. La plateforme doit etre PC, PS4, XBOX</td>
+		</tr>
+		<tr>
+		<th>=say |action]</th><td>Le bot repeterra votre phrase</li>
+		</tr>
+		<tr>
+		<th>=serveur</th><td>Permet de rejoindre le serveur officiel <a href='https://discord.gg/5J6V88k'>d'OzeryoBot</a></td>
+		</tr>
+		<tr>
+		<th>=invite</th><td>Permet d'inviter le bot sur un de vos serveur</td>
+		</tr>
+		</ul>
+		</table>
+		<h3>Musique</h3>
+		<ul>
+		<li>=play [URL] --> Demmarre une musique,⚠️ doit etre utilisé dans un salon vocal !⚠️</li>
+		<li>=Gplaylist [action] --> Demmarre avec 'play' ou ajoute une musique avec 'add' a la playlist de guilde</li>
+		<li>=skip --> Permet de passer une musique </li>
+		<li>=stop --> Permet d'arreter la musique</li>
+		<li>=song --> Permet d'afficher la piste en cours</li>
+		<li>=volume --> Permet de regler le volume du bot</li>
+		<li>=pause --> Permet de mettre en pause et de redemarrer la piste en cours</li>
+		</ul>
+		<h3>Level</h3>
+		<ul>
+		<li>=level --> Permet d'afficher votre niveau(niveau de joueur) </li>
+		<li>=Glevel --> Permet d'afficher le niveau de votre guilde</li>
+		<li>=profile --> Permet d'afficher vos informations de joueurs</li>
+		</ul>
+		<h3>Game (A venir)</h3>
+		<li>=city info --> permet d'affichez votre ville</li>
+		<li> l reste a venir tres prochainement</li>
+		</ul>
+		
+		
+		</ul>
+		
+		<footer>
+
+                <div id="reseaux sociaux">
+
+                    <h3>Reseaux Sociaux</h3>
+					
+				 <p><img src="/images/facebook.png" alt="Facebook" height="30" width="30" /><img src="/images/twitter.png" alt="Twitter" height="30" width="30" /><a href="https://discord.gg/5J6V88k"><img src="images/discord.png" alt="discord" height="30" width="30" /></a></p>
+
+                </div>
+
+				<div id="separateur 1"><img src="/images/separateurV.png" alt="separateur" height="90" width="10"/></div>
+				
+				 <div id="Les moderateurs">
+
+                    <h3>moderateurs</h3>
+
+                    <div id="moderateurs">
+
+                        <ul>
+
+                            <li>Ybsicraft - Le dictateur !</li>
+							<li> MissGeek15 - La futur Graphiste</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+				<div id="separateur 1"><img src="/images/separateurV.png" alt="separateur" height="90" width="10"/></div>
+                <div id="Le serveur">
+
+                    <h3>Le serveur</h3>
+
+                    <div id="ip"> <strong>minecraft 1.12.2 : Ozeryo.ddns.net</strong></p>
+
+                </div>
+
+            </footer>
+
+        </div>
+	</body>
+</html>
