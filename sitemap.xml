@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://ozeryo.xyz/</loc>
+  <lastmod>2019-08-01T12:16:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/HowToPlay</loc>
+  <lastmod>2019-08-01T12:02:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/WebMap</loc>
+  <lastmod>2019-08-01T12:02:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/Commands</loc>
+  <lastmod>2019-08-01T12:02:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/commands/help</loc>
+  <lastmod>2019-07-21T15:52:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/commands/report</loc>
+  <lastmod>2019-07-21T15:52:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/commands/info</loc>
+  <lastmod>2019-07-21T15:52:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/commands/nsfw</loc>
+  <lastmod>2019-07-21T15:52:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/commands/google</loc>
+  <lastmod>2019-07-21T15:52:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/GameLevel.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Rep.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Cf.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Troph%C3%A9es.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Guild.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Level.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Pays.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/LeaderBoard/Ap.php</loc>
+  <lastmod>2019-08-01T18:34:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ozeryo.xyz/commands/serveur</loc>
+  <lastmod>2019-07-21T15:52:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
