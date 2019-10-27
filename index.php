@@ -32,6 +32,8 @@ include("head.html");
 
             <title>Ozeryo - Accueil</title>
 
+
+
 </head>
 
 <body>
@@ -49,7 +51,28 @@ include("header.html");
 
                     Inviter le bot sur votre serveur
 
-                    <a href="https://discordapp.com/oauth2/authorize?client_id=399115724926484490&scope=bot&permissions=2146958847" class="bouton_rouge">Cliquez ici</a>
+                    <form class="form-inline my-2 my-lg-0 bouton_rouge">
+      <input class="saisie" type="search" placeholder="Search" aria-label="Search" name="username">
+      <button class="search" type="submit">Search</button>
+    </form>
+
+    <?php 
+                     if (!isset($_POST['username']) && $_GET['username'] != "") {
+                    $username = $_GET['username'];
+
+                    $parsed_json = json_decode(file_get_contents('https://ozeryo.xyz/Rasberry/données/bot/profilData.json'));
+                    $profils = $parsed_json->{'profils'};
+
+                    foreach($profils as $profil) {
+                      if($profil->{'name'} == $username) {
+                          echo 'Ybsi';
+                          $id = $profil->{'id'};
+                          header('Location: https://ozeryo.xyz/profile.php?id='.$id);
+                          exit();
+                      }
+                  }
+                }
+                    ?>
 
                 </div>
 
@@ -84,6 +107,8 @@ include("header.html");
             <span style="color: red font-size: 1.5em font-weight: bold">A propos de nous</span>
 
                     <p><span style="color : #FF0000, font-weight : bold">Le 23-07-19 a 18:05 </span>- Réparation de nombreux bugs au niveau du bot qui faisait que les commandes sans paramètre renvoyer un message d'erreur au lieu de s'implement demander d'ajouter un paramètre.<br /></p>
+
+
 
             </section>
 </div>
