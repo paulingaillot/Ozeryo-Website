@@ -1,47 +1,59 @@
-
-
-        <div id="bloc_page">
-
-            <header>
-
-                 <script type="text/javascript"> Cache-Control: max-age=31557600; </script>
-                <script type="text/javascript"> var QWA={}; QWA.startTime=new Date().getTime(); </script>
-
-                <div id="titre_principal">
-
-                    <div id="logo">
-
-                        <img src="/images/logo.jpg" alt="Logo de Ozeryo" />
-
-                        <h1>Ozeryo</h1>    
-
+<body style=" background: url('/images/fond.jpg') no-repeat center fixed;">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="/images/logo.jpg" class="rounded mx-auto" style="width: 10%;"
+                alt="Logo Ozeryo"> Ozeryo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://ozeryo.xyz">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ozeryo.xyz/HowToPlay.php">Comment Jouer ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ozeryo.xyz/WebMap.php">La map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ozeryo.xyz/Commands.php">Les Commandes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./LeaderBoard.php" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Classements
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/LeaderBoard.php">General Top</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/LeaderBoard/GameLevel.php">Game leveling</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Rep.php">Rep</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Cf.php">Cf</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Trophées.php">Trophées</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Guild.php">Guilds</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Level.php">Social Leveling</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Pays.php">Pays</a>
+                        <a class="dropdown-item" href="/LeaderBoard/Ap.php">Ap</a>
+                        <div class="dropdown-divider"></div>
                     </div>
-
-                </div>
-
-
-                <nav class="main-navigation">
-
-                    <input id="menu-checkbox"type="checkbox" class="menu-checkbox" />
-                    <label for="menu-checkbox" class="menu-toggle">≡ Menu</label>
-                    <ul class="menu">
-
-                        <li><a href="../">Accueil</a></li>
-
-                        <li><a href="../HowToPlay.php">Comment Jouer ?</a></li>
-
-                        <li><a href="../WebMap.php">La Map</a></li>
-
-                        <li><a href="../Commands.php">Les Commandes</a></li>
-
-                        <li><a href="../LeaderBoard.php">Classements</a></li>
-
-                        <li><a href="https://discordapp.com/oauth2/authorize?client_id=399115724926484490&scope=bot&permissions=2146958847">Ajouter le Bot</a></li>
-
-                    </ul>
-
-                </nav>
-
-            </header>
-
-            <div id=separateur style="padding-top:25px; text-align:center"> <img src="/images/separateur.png" alt="separateur" width=100% height="20" /></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://discordapp.com/oauth2/authorize?client_id=399115724926484490&scope=bot&permissions=2146958847">Ajouter
+                        le bot</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />

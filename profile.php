@@ -1,26 +1,91 @@
-
 <!DOCTYPE html>
-
-<html>
-                       <?php
-include("head.html");
-?>
+<html lang="fr">
 
 <head>
-    
-            <title>Ozeryo - Testing page</title>
-
+    <!-- Global site tag (gt<p></p>ag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76348349-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-76348349-4');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6251821844352758",
+            enable_page_level_ads: true
+        });
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre:400,400i" rel="stylesheet">
+    <link rel="shortcut icon" type="images/x-icon" href="/images/icon.ico" />
+    <title>Ozeryo - Profil</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-    
 
-    <body>
-
-        <div id="bloc_page">
-
-                                <?php
-include("header.html");
-?>
+<body style=" background: url('/images/fond.jpg') no-repeat center fixed;">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./images/logo.jpg" class="rounded mx-auto" style="width: 10%;"
+                alt="Logo Ozeryo"> Ozeryo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://ozeryo.xyz">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ozeryo.xyz/HowToPlay.php">Comment Jouer ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ozeryo.xyz/WebMap.php">La map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ozeryo.xyz/Commands.php">Les Commandes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./LeaderBoard.php" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Classements
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/LeaderBoard.php">General Top</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./LeaderBoard/GameLevel.php">Game leveling</a>
+                        <a class="dropdown-item" href="./LeaderBoard/Rep.php">Rep</a>
+                        <a class="dropdown-item" href="./LeaderBoard/Cf.php">Cf</a>
+                        <a class="dropdown-item" href="./LeaderBoard/TRophées.php">Trophées</a>
+                        <a class="dropdown-item" href="./LeaderBoard/Guilds.php">Guilds</a>
+                        <a class="dropdown-item" href="./LeaderBoard/Level.php">Social Leveling</a>
+                        <a class="dropdown-item" href="./LeaderBoard/Pays.php">Pays</a>
+                        <a class="dropdown-item" href="./LeaderBoard/Ap.php">Ap</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://discordapp.com/oauth2/authorize?client_id=399115724926484490&scope=bot&permissions=2146958847">Ajouter le bot</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
 
 <?php 
     
@@ -80,21 +145,28 @@ if($EXP>=100) {
 $top_level =$parsed_json2->{'levelProfil'}->{$id}->{'toplevel'};
 
 
-    echo "<section>
-    <article>
-    </article>
-    <aside id='stats_barre'>
-    <p><center><img src='";
-    echo $avatar;
-    echo "', alt='avatar user' width='100px', height='100px' />   Statistique de ";
-    echo $name;
-    echo "<center></p>
-    </aside>
-    
-    </section>
-    <section>
-    <article>
-    Inscription : ";
+echo "<div class='container-fluid'>
+<div class='row'>
+<div class='offset-md-4'></div>
+<div class='col-md-4'>
+
+<div class='card'>
+  <div class='card-body'>
+  <img  src='";
+  echo $avatar;
+  echo "', alt='avatar user' width='100px', height='100px' />   Statistique de ";
+  echo $name;
+  echo "</div>
+</div>
+
+</div>
+</div>
+<br />
+<div class='row'>
+<div class='offset-md-1'></div>
+<div class='col-md-7'>
+
+Inscription : ";
     echo  date('d F Y H\Hi',($inscription/1000));
     echo " <br />
     Temps de jeu : ";
@@ -104,46 +176,107 @@ $top_level =$parsed_json2->{'levelProfil'}->{$id}->{'toplevel'};
     echo "<br /> Dernière commande :";
     echo date('d F Y H\Hi',($lastCommand/1000));
     echo " <br />
-    </article>
-    <aside id='top'>
-    <h1>Tops</h1>
-    Top IDH : ";
-    echo $IDH;
-    echo" [#";
-    echo $top_IDH;
-    echo "] <br /> Top Xp : ";
-    echo $xp;
-    echo " [#";
-    echo $top_xp;
-    echo "] <br /> Top Cf : ";
-    echo $cf;
-    echo " [#";
-    echo $top_cf;
-    echo "] <br /> Top Rep : ";
-    echo $rep;
-    echo  "[#";
-    echo $top_rep;
-    echo "] <br /> Top Trophy : ";
-    echo $trophy;
-    echo " [#";
-    echo $top_trophy;
-    echo "] <br /> Top Ap : ";
-    echo $ap;
-    echo " [#";
-    echo $top_ap;
-    echo "] <br /> Top Level : ";
-    echo $level;
-    echo " [#";
-    echo $top_level;
-    echo "] <br /> </aside> </section><section>  <aside id='voting_page'>   <center>Voting page 1 | Voting page 2 | Voting page 3</center> </aside></section>";
-    ?>
+
+
 </div>
-    <
+
+<div class='col-md-3'>
+
+<div class='card'>
+  <div class='card-body'>
+<h3>Tops</h3>
+Top IDH : ";
+echo $IDH;
+echo" <span class='badge badge-warning'>#";
+echo $top_IDH;
+echo "</span> <br /> Top Xp : ";
+echo $xp;
+echo " <span class='badge badge-warning'>#";
+echo $top_xp;
+echo "</span> <br /> Top Cf : ";
+echo $cf;
+echo " <span class='badge badge-warning'>#";
+echo $top_cf;
+echo "</span> <br /> Top Rep : ";
+echo $rep;
+echo  "<span class='badge badge-warning'>#";
+echo $top_rep;
+echo "</span> <br /> Top Trophy : ";
+echo $trophy;
+echo " <span class='badge badge-warning'>#";
+echo $top_trophy;
+echo "</span> <br /> Top Ap : ";
+echo $ap;
+echo " <span class='badge badge-warning'>#";
+echo $top_ap;
+echo "</span> <br /> Top Level : ";
+echo $level;
+echo " <span class='badge badge-warning'>#";
+echo $top_level;
+echo "</span> </div>
+</div>
+
+</div>
+</div>
+<br />
+<div class='row'>
+<div class='offset-md-4'></div>
+<div class='col-md-4'>
+
+<div class='card'>
+  <div class='card-body'>
+<center>Voting page 1 | Voting page 2 | Voting page 3</center>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+";
 
 
-                       <?php
-include("footer.html");
-?>
+  
+    ?>
+    <hr>
+    <div class="card bg-secondary mb-3">
+        <div class="card-body">
+            <p class="card-text">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3> Reseaux Sociaux</h3>
+                            <br>
+                            <img src="./images/discord.png" class="img-fluid" alt="Responsive image" style="width: 5%;">
+                            <img src="./images/facebook.png" class="img-fluid" alt="Responsive image"
+                                style="width: 5%;">
+                            <img src="./images/twitter.png" class="img-fluid" alt="Responsive image" style="width: 5%;">
+                        </div>
+                        <div class="col-md-4">
+                            <h3>L'équipe</h3>
+                            <br>
+                            <p>Ybsi#3180 - Développeur <br> </p>
+                            <p>Evan - Modérateur <br> </p>
+                            <p>Delyos - Modérateur </p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3>News</h3>
+                            <br>
+                            <p>Mises a jours du site en cours, de nouvelles fonctionalités et un nouveau design seront
+                                mis en
+                                ligne dans les prochains jours</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+</body>
 
-	</body>
 </html>

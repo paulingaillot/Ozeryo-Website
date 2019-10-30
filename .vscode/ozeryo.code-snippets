@@ -1,0 +1,160 @@
+{
+	// Place your html workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	 "Print to console": {
+	 	"scope": "javascript,typescript",
+	 	"prefix": "ozeryo",
+	 	"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"fr\">",
+			
+			"<head>",
+			
+				  "<!-- Global site tag (gt<p></p>ag.js) - Google Analytics -->",
+					"<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-76348349-4\"></script>",
+					"<script>",
+					"window.dataLayer = window.dataLayer || [];",
+					"function gtag(){dataLayer.push(arguments);}",
+					"gtag('js', new Date());",
+			
+					"gtag('config', 'UA-76348349-4');",
+					"</script>",
+					
+			
+			
+					"<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+			"<script>",
+				 "(adsbygoogle = window.adsbygoogle || []).push({",
+					  "google_ad_client: \"ca-pub-6251821844352758\",",
+					  "enable_page_level_ads: true",
+				 "});",
+			"</script>",
+			
+				
+				
+					"<meta charset=\"utf-8\" />",
+					"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			
+					"<link href=\"https://fonts.googleapis.com/css?family=Proza+Libre:400,400i\" rel=\"stylesheet\">",
+					"<link rel=\"shortcut icon\" type=\"images/x-icon\" href=\"/images/icon.ico\" />",
+			
+			
+			  "<title>Ozeryo - Accueil</title>",
+			  "<meta charset=\"UTF-8\">",
+			  "<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"",
+				"integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">",
+			"</head>",
+			
+			"<body>",
+			  "<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\"",
+				"integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\"",
+				"crossorigin=\"anonymous\"></script>",
+			  "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" ",
+				"integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\"",
+				"crossorigin=\"anonymous\"></script>",
+			  "<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\"",
+				"integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\"",
+				"crossorigin=\"anonymous\"></script>",
+			
+			  "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">",
+				"<a class=\"navbar-brand\" href=\"#\"><img src=\"./images/logo.jpg\" class=\"rounded mx-auto\" style=\"width: 10%;\" alt=\"Logo Ozeryo\"> Ozeryo</a>",
+				"<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"",
+				  "aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+				  "<span class=\"navbar-toggler-icon\"></span>",
+				"</button>",
+			
+				"<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">",
+				  "<ul class=\"navbar-nav mr-auto\">",
+					"<li class=\"nav-item active\">",
+					  "<a class=\"nav-link\" href=\"https://ozeryo.xyz\">Accueil <span class=\"sr-only\">(current)</span></a>",
+					"</li>",
+					"<li class=\"nav-item\">",
+					  "<a class=\"nav-link\" href=\"https://ozeryo.xyz/HowToPlay.php\">Comment Jouer ?</a>",
+					"</li>",
+					"<li class=\"nav-item\">",
+					  "<a class=\"nav-link\" href=\"https://ozeryo.xyz/WebMap.php\">La map</a>",
+					"</li>",
+					"<li class=\"nav-item\">",
+					  "<a class=\"nav-link\" href=\"https://ozeryo.xyz/Commands.php\">Les Commandes</a>",
+					"</li>",
+					"<li class=\"nav-item dropdown\">",
+					  "<a class=\"nav-link dropdown-toggle\" href=\"./LeaderBoard.php\" id=\"navbarDropdown\" role=\"button\"",
+						"data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+						"Classements",
+					  "</a>",
+					  "<div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/GameLevel.php\">Game leveling</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/Rep.php\">Rep</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/Cf.php\">Cf</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/TRophées.php\">Trophées</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/Guilds.php\">Guilds</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/Level.php\">Social Leveling</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/Pays.php\">Pays</a>",
+						"<a class=\"dropdown-item\" href=\"./Leaderboard/Ap.php\">Ap</a>",
+						"<div class=\"dropdown-divider\"></div>",
+					  "</div>",
+					"</li>",
+					"<li class=\"nav-item\">",
+					  "<a class=\"nav-link\" href=\"#\">Ajouter le bot</a>",
+					"</li>",
+				  "</ul>",
+				"</div>",
+			  "</nav>",
+			  "<br />",
+			  
+			 
+			  "<hr>",
+        "<div class=\"card bg-secondary mb-3\">",
+          "<div class=\"card-body\">",
+            "<p class=\"card-text\">",
+
+              "<div class=\"container-fluid\">",
+                "<div class=\"row\">",
+                  "<div class=\"col-md-4\">",
+                    "<h3> Reseaux Sociaux</h3>",
+                    "<br>",
+                    "<img src=\"./images/discord.png\" class=\"img-fluid\" alt=\"Responsive image\" style=\"width: 5%;\">",
+                    "<img src=\"./images/facebook.png\" class=\"img-fluid\" alt=\"Responsive image\" style=\"width: 5%;\">",
+                    "<img src=\"./images/twitter.png\" class=\"img-fluid\" alt=\"Responsive image\" style=\"width: 5%;\">",
+                  "</div>",
+
+                  "<div class=\"col-md-4\">",
+                    "<h3>L'équipe</h3>",
+                    "<br>",
+                    "<p>Ybsi#3180 - Développeur <br> </p>",
+                    "<p>Evan - Modérateur <br> </p>",
+                    "<p>Delyos - Modérateur </p>",
+                  "</div>",
+
+                  "<div class=\"col-md-4\">",
+                    "<h3>News</h3>",
+                    "<br>",
+                    "<p>Mises a jours du site en cours, de nouvelles fonctionalités et un nouveau design seront mis en",
+                      "ligne dans les prochains jours</p>",
+                  "</div>",
+                "</div>",
+              "</div>",
+              "<br>",
+
+
+
+            "</p>",
+          "</div>",
+      "  </div>",
+
+     " </div>",
+    "</div>",
+  "</div>",
+
+"</body>",
+
+"</html> ",
+	 	],
+	 	"description": "Ozeryo format"
+	 }
+}

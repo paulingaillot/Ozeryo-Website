@@ -4,7 +4,7 @@
 <html>
 
                        <?php
-include("header.html");
+include("head.html");
 ?>
 
 <head>
@@ -23,6 +23,22 @@ include("header.html");
 include("header.html");
 ?>
 
+<div class="container-fluid">
+    <div class="row">
+      <div class="offset-md-5"></div>
+      <div class="col-md-2">
+        <div class="card text-white bg-secondary mb-3 text-center" style="max-width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Trophy Leaderboard</h5>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="offset-md-4"></div>
+<div class="col-md-4">
+
 <?php 
 $monfichier = fopen('/home/DiscordBot/Rasberry/données/bot/LeaderBoard/trophées.txt', 'r');
 
@@ -32,15 +48,17 @@ while($i<$max){
 $i= $i +1;
 try {
 $message = fgets($monfichier);
-    echo "<center>";
+    echo "<p>";
     echo $message."\n";
-    echo "<br />";
+    echo "</p>";
 } catch (Exception $e) {
     echo 'Exception reçue : ',  $e->getMessage(), "\n";
 }
 }
 fclose($monfichier);
  ?>
+ </div>
+</div>
 
                             <?php
 include("footer.html");

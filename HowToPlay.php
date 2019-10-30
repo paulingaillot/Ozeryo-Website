@@ -18,17 +18,19 @@ include("head.html");
 
     <body>
 
-        <div id="bloc_page">
-
             
                     <?php
 include("header.html");
 ?>
 
+<div class="container-fluid">
+    <div class="row">
+      <div class="offset-md-4"></div>
+      <div class="col-md-4">
 
-
-        <div class=sommaire>
-            
+      <div class="card text-center bg-light">
+      <div class="card-body">
+          <ul>
                         <a class=sommaire, href="#Bien débuter">🏰 Bien débuter</a><br />
                         <a class=sommaire, href="#Les Batiments">🏙️ Les Batiments</a><br />
                         <a class=sommaire, href="#Les Attaques">⚔️ Les Attaques</a><br />
@@ -36,11 +38,18 @@ include("header.html");
                         <a class=sommaire, href="#Le Laboratoire">⚗️ Le Laboratoire</a><br />
                         <a class=sommaire, href="#Les Enchères">💸 Les Enchères</a><br />
                         <a class=sommaire, href="#La Map">💸 La Map</a><br />
-
+                
                     </ul>
-
+                </div>
 
         </div>
+        </div>
+      <div class="offset-md-4"></div>
+    </div>
+        <div class="row">
+                <div class="offset-md-1"></div>
+                <div class="col-md-10">
+
             <p><center><div id="Bien débuter"><span style="font-size: 2.3em"><strong>🏰 Comment bien débuter en jeu ?</strong></span></div></center><br /><br />
 
     • Vous pouvez accéder à toutes les commandes jeu à l'aide de la commande =help game ou =help.<br /><br />
@@ -54,7 +63,7 @@ include("header.html");
 - Vous pouvez à présent commencer à construire. Quelques conseils, premièrement, ne construisez pas directement votre caserne, vous pourriez vous faire attaquer avant même d'avoir réellement débuté... L'entreprise est le bâtiment le plus important chez les débutant car il vous permet d'augmenter le gain de money ( dans les 3 commandes vues précédemment ), pour se faire, faites =b entreprise : vous verrez alors combien coûte son amélioration ensuite, si vous avez assez de money / ressources, faites =b entreprise 1. Le nombre à la fin variera selon le niveau à laquelle vous voulez améliorer votre bâtiment.<br /><br />
 
 - Pour finir cette introduction au jeu, un autre moyen de gagner des ressources / moneys / exp est d'attraper des coffres-forts. Ceux-ci apparaissent plusieurs fois par heure à des intervalles aléatoires. Pour tenter de l'attraper, faites =cf et répétez l'action autant de fois que nécessaire. Attention, ceci peut être difficile si un autre joueur tente d'attraper le coffre en même temps !</p><br />
-<center><div class=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div></center>
+<hr>
 <p><center><div id="Les Batiments"><span style="font-size: 2.3em"><strong>🏙️ Les bâtiments</strong></span></div></center><br /><br />
 
     • Vous pouvez accéder à toutes les commandes jeu à l'aide de la commande =help game ou =help.<br /><br />
@@ -70,7 +79,7 @@ include("header.html");
 <span style="font-weight : bold">🏯 Bunker :</span> améliore votre défense.<br />
 <span style="font-weight : bold">🏫 École :</span> donne un bonus de population.<br />
 <span style="font-weight : bold">🚗 Transport :</span> bâtiment spécial qui évolue selon l'amélioration. Donne un bonus de déplacement ( les réduits ). =b gare pour build la gare ; =b port pour build le port ; =b aeroport pour build l'aéroport ; =b zone de lancement pour build la zone de lancement. Vous devez faire les améliorations dans cet ordre là.<br /><br /></p>
-<center><div class=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div></center>
+<hr>
 <p><center><div id="Les Attaques"><span style="font-size: 2.3em"><strong>⚔️ Caserne et attaques</strong></span></div></center><br /><br />
 
 • Vous pouvez accéder à toutes les commandes casernes / attaques à l'aide de la commande =help game ou =help.<br /><br />
@@ -96,7 +105,7 @@ En la construisant, vous pourrez entrainer des soldats ( =soldier train [nombre]
     • Pas besoin de les former, vous avez automatiquement un nombre d'espionnage par jour qui dépend du niveau de votre caserne. De plus, plus celle-ci est haut niveau, moins l'espion à une chance de se faire voir.<br /><br />
 
     • =spy [joueur] et le bot vous enverra un rapport d'espionnage avec un nombre approché des soldats dans la ville et une information sur une ressource.<br /><br /></p>
-<center><div class=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div></center>
+<hr>
 <p><center><div id="Les Pays"><span style="font-size: 2.3em"><strong>🌍 Pays</strong></span></div></center><br /><br />
 
     • Vous pouvez accéder à toutes les commandes pays à l'aide de la commandes =help game ou =help.<br /><br />
@@ -158,7 +167,7 @@ Vous pouvez continuer de personnaliser votre pays avec la création de grade per
 • =p members pour voir la liste des membres du pays.<br />
 • =p attack [pays] [soldats nombre] pour lancer une attaque contre un autre pays.<br />
 • =p bank [add/credit] [nombre] pour ajouter ou retirer de l'argent de la banque de votre pays.<br /><br /></p>
-<center><div class=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div></center>
+<hr>
 <p><center><div id="Le Laboratoire"><span style="font-size: 2.3em"><strong>⚗️ Laboratoire</strong></span></div></center><br /><br />
 
 • Vous pouvez accéder à toutes les commandes laboratoire à l'aide de la commande =help game ou =help.<br /><br />
@@ -173,7 +182,7 @@ Voici son utilisation en quelques étapes :<br /><br />
 • Lorsque le labo sera prêt, 4h après vous pourrez donc récupérer ses résultats avec =labo claim qui vous donnera de l'expérience et du mana.<br /><br />
 
 • Si vous n'avez pas récupérer les résultats au maximum 5h après l'avoir lancer, celui-ci explosera ! Vous devrez le réparer à l'aide de la commande =labo repair. Le labo prendra 24h pour se réparer, vous pouvez cependant accélérer le precessus et le réparer immédiatement ( coûte des matériaux + de la money ) en faisant =labo repair confirm.<br /><br /></p>
-<center><div class=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div></center>
+<hr>
 <p><center><div id="Les Enchères"><span style="font-size: 2.3em"><strong>💸 Enchères</strong></span></div></center><br /><br />
 
 Les enchères vous permettent de remporter des pets ( =zoo ), des houses ( =houses ), des armes (=h weapons) ou bien encore des armures (=h armor).<br />
@@ -185,7 +194,7 @@ Chaque jour un nouvel objet est mis aux enchères, il peut être un pet ou une h
 
 • Les jetons sont gagnés dans les hourly, daily, votes et lootboxs.<br /><br /></p>
 
-<center><div class=separateur> <img src="/images/separateur.png" alt="separateur" width="900" height="20" /></div></center>
+<hr>
 <p><center><div id="La Map"><span style="font-size: 2.3em"><strong>🌐 La Map </strong></span></div></center><br /><br />
 
     • Vous pouvez accéder à toutes les commandes d'attaque à l'aide de la commandes =help game ou =help.<br /><br />
@@ -209,11 +218,11 @@ Chaque jour un nouvel objet est mis aux enchères, il peut être un pet ou une h
     Les donjons donnent en étant vaincu une récompense entre 1 et 10 lootbox (=lb) (si vous vainquez un boss nv 1 vous obteniendrez obligatoirement 1 lb mais si vous vainquez un boss nv 10 vous obtiendrez entre 1 et 10 lb)</p>
 
         </div>
+        </div>
+</div>
          
                     <?php
 include("footer.html");
 ?>
-
-        </div>
     </body>
 </html>
